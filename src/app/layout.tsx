@@ -1,3 +1,4 @@
+import Analytics from "@/components/analytics/analytics";
 import ThemeProviderWrapper from "@/components/theme/ThemeProviderWrapper";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
@@ -10,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Delivery - Takeat App",
+  title: "Pedido - Takeat App",
   description: "Faça seu pedido de comida online com a Takeat App",
 };
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         <ThemeProviderWrapper>
           {children}
         </ThemeProviderWrapper>
+        <Analytics />
       </body>
     </html>
   );

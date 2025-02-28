@@ -20,12 +20,15 @@ import {
   PriceContainer,
 } from "./highlights.style";
 
+const imgBurger01 = '/assets/alimento1.png'
+const imgBurger02 = '/assets/alimento2.png'
+
 const highlights = [
   {
     id: 1,
     name: "Double Bacon Burger",
     description: "Pão, hambúrguer, queijo, bacon, alface, tomate, maionese e ketchup",
-    image: "https://s3-alpha-sig.figma.com/img/0ddc/d5a7/67b96d4b87147d7838d2b936745eaadf?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=uJWEGaAd1mvNhB~VrIxn2GFFTSwChOp4fyGCk9r7ZCcnB8YkSvxBx53t7MuoH9DPH2~RMIcpSdRXqtmm7MdO6ii2LE-sSDKnvSpoT8urHWgJgwrIxNtku1foyFF3suyGyey8p3J~agCX0VKGGnbBXlNu4Zcvzk25Q7f340Dqlgdid4UgkZK0qNHHxDLdpphNMkBMVaFY3nYogCGCKD3dgGwk7rUnLY73ct4eMs8M6bYJw5RdKLFTFcKVVp8X1FG2Si0EgaIOXtgA48K7YxFavKYDk5o1sgZFpRxR-YXJBdyweNaeruQMfcQ0JRqWKXQyr3E325X9KYIv-XujsjV5~w__",
+    image: imgBurger01,
     price: 38.0,
     newPrice: 22.99,
   },
@@ -33,7 +36,7 @@ const highlights = [
     id: 2,
     name: "Combo que mata a sua fome",
     description: "Pão, hambúrguer, queijo, bacon, alface, tomate, maionese e ketchup, batata frita e refrigerante",
-    image: "https://s3-alpha-sig.figma.com/img/5c36/2831/d6efa60f93a2496d803cee740a8d2dc6?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fW5nVs7Xat4rCakEaLXHh2mO1CYXSCka3d~kfMpYdYgFAphepQvppA9qGuAqDTsZ4jYKKlwT-~qaoBTxjK-zR5kj9Rpha~3Gy6Cx~3Ai-1H8pHWsMxfvesR2aOtn7~S7wxADE16vTNHonHpxQA-bONO-~eSejGayL2aDATdla3Glk~-7hpvv4LTJWKNg5SJsgkz9rAe3U-0yEZcNyhzOaor1hv8R7VaNEd4hlB~xcSkS8ihL-Df1Ca57WsmJyf~xzunNHywXVgMrfltvghBh89G7SKBRfWXBeDq2je0SPHYxqrGedQjQH07mDkQTTz4AKOx9HYFcgZ7ft4zngkBpIw__",
+    image: imgBurger02,
     price: 70.0,
     newPrice: 54.0,
   },
@@ -41,7 +44,7 @@ const highlights = [
     id: 3,
     name: "Burger de frango",
     description: "Pão, hambúrguer de frango, queijo, alface, tomate, maionese e ketchup",
-    image: "https://s3-alpha-sig.figma.com/img/0ddc/d5a7/67b96d4b87147d7838d2b936745eaadf?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=uJWEGaAd1mvNhB~VrIxn2GFFTSwChOp4fyGCk9r7ZCcnB8YkSvxBx53t7MuoH9DPH2~RMIcpSdRXqtmm7MdO6ii2LE-sSDKnvSpoT8urHWgJgwrIxNtku1foyFF3suyGyey8p3J~agCX0VKGGnbBXlNu4Zcvzk25Q7f340Dqlgdid4UgkZK0qNHHxDLdpphNMkBMVaFY3nYogCGCKD3dgGwk7rUnLY73ct4eMs8M6bYJw5RdKLFTFcKVVp8X1FG2Si0EgaIOXtgA48K7YxFavKYDk5o1sgZFpRxR-YXJBdyweNaeruQMfcQ0JRqWKXQyr3E325X9KYIv-XujsjV5~w__",
+    image: imgBurger01,
     price: 144.5,
     newPrice: 98.0,
   },
